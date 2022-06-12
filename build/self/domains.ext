@@ -1,0 +1,17 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+DNS.2 = eclipse.local
+DNS.3 = eclipse1.local
+DNS.4 = eclipse2.local
+DNS.5 = eclipsedev.local
+DNS.6 = eclipseprod.local
+DNS.7 = apn.local
+DNS.8 = dev.local
+DNS.9 = apn.local
+DNS.10 = kenny.local
+DNS.11 = test.local
+DNS.12 = kupman.local
